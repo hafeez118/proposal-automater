@@ -20,16 +20,27 @@ This project provides a fully private, on-premises AI-powered proposal generatio
 🏗️ Architecture Overview
 
 proposal-gen-ai/
+
 ├── docker-compose.yml
+
 ├── faiss-api/
+
 │   ├── main.py
+
 │   ├── vector_store.py
+
 │   ├── proposal_generator.py
+
 │   └── requirements.txt
+
 ├── templates/
+
 │   └── proposal_template.jinja
+
 ├── streamlit-ui/
+
 │   ├── app.py
+
 │   └── requirements.txt
 ├── n8n_workflow/
 │   └── proposal_workflow.json
